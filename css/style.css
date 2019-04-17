@@ -1,0 +1,355 @@
+/* login*/
+.inpt-div{
+    display: flex;
+
+}
+
+body{
+    font-family: 'Roboto Regular', arial;
+}
+
+.label-email{
+    position: absolute;
+    top: 343px;
+    font-family: 'Roboto Regular', arial;
+    font-size: 16px;
+    color: black;
+}
+
+.label-pass{
+    position: absolute;
+    top: 445px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Roboto Regular', arial;
+}
+.btn-meet{
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+.login-h1{
+    padding-top: 150px;
+    padding-bottom: 70px;
+    padding-left: 75px;
+    font-size: 26px;
+    text-align: left;
+}
+.padding-row{
+    margin-bottom: 20px;
+}
+
+.top-cover{
+    margin-top: 60px;
+}
+
+.special-bot{
+    margin-bottom: 100px;
+}
+.password-input{
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+.lost-p{
+    padding-bottom: 20px;
+    font-size: 26px;
+    color: #3ab1d0;
+}
+.log-btn{
+    font-size: 26px;
+    background: #3ab1d0;
+    border: none!important;
+    min-width: 225px;
+    min-height: 60px;
+    color:white;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    letter-spacing: 0!important;
+    margin: 0 0 0!important;
+}
+
+.all-items{
+    width: 30%;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.email-input{
+    border: 1.5px solid #aaa0a0;
+    /* padding: 0 75px 20px; */
+    min-width: 350px;
+    min-height: 50px;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle{
+    color: #383d41;
+    background-color: white;
+    border-color: #6c757d;
+}
+.btn-secondary:hover{
+    color: #383d41;
+    background-color: white;
+    border-color: #6c757d;
+}
+
+/* Logout*/
+
+
+
+.login-ass label{
+    position: absolute;
+    top: -25px;
+    font-family: 'Roboto Regular', arial;
+
+}
+
+
+.login-ass{
+    padding-bottom: 55px;
+}
+.assistance-h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 24px;
+}
+
+.nemo-p{
+    padding-bottom: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.submit-btn-assistance{
+    padding-bottom: 55px;
+}
+
+.btn-assistance{
+    font-size: 26px;
+    background: #3ab1d0;
+    border: none!important;
+    min-width: 225px;
+    min-height: 60px;
+    color:white;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.setting-btn{
+    width: 350px;
+    color: #383d41;
+    background-color: white;
+    border-color: #6c757d!important;
+    font-family: 'Montserrat', sans-serif;
+}
+.dropdown-toggle::after{
+    margin-left: 10.255em;
+}
+
+@media (max-width: 1025px){
+    .fix-cont{
+        padding-left: 100px!important;
+    }
+    .fix-cont-ass{
+        padding-left: 50px!important;
+    }
+
+    .bg-event{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 769px){
+    .label-email{
+        top: 295px;
+    }
+    .fix-cont-ass{
+        padding-left: 50px!important;
+    }
+    .label-pass{
+        top: 395px;
+    }
+    .btn-meet {
+        position: absolute;
+        right: 5px;
+        top: 50px;
+    }
+    .fix-cont{
+        padding-left: 100px!important;
+    }
+}
+@media (max-width:500px){
+.assistance-h1{
+    text-align: center;
+    width: 100%;
+}
+
+    .fix-cont{
+        padding-left: 0px!important;
+    }
+    .fix-cont-ass{
+        padding-left: 0!important;
+    }
+
+    .nemo-p{
+        text-align: left;
+        margin-left: 20px;
+    }
+.respons{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.submit-btn-assistance{
+    text-align: center;
+    width: 100%;
+}
+
+.btn-assistance{
+    font-size: 26px;
+    background: #3ab1d0;
+    border: none!important;
+    min-width: 190px;
+    min-height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+    .email-input{
+        margin: 0 auto;
+    }
+    .label-email{
+        left: 12px;
+        top:285px;
+    }
+    .inpt-div{
+        width: 100%;
+    }
+
+
+    .password-input{
+        margin: 0 auto;
+    }
+    .label-pass{
+        left: 12px;
+        top:385px;
+    }
+
+    .all-items{
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:415px){
+    .label-email {
+        left: 32px;
+    }
+    .btn-meet {
+        position: absolute;
+        right: 120px;
+        top: 140px;
+        /* text-align: -webkit-center; */
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        left: 0
+
+    }
+    .bg-event{
+        min-height: 200px;
+    }
+    .label-pass {
+        left: 32px;
+    }
+}
+@media (max-width:340px){
+    .dropdown-toggle::after {
+        margin-left: 6.255em;
+    }
+    .setting-btn{
+        min-width: 300px;
+    }
+    .email-input{
+        min-width: 300px;
+    }
+    .log-btn {
+        font-size: 24px;
+        background: #3ab1d0;
+        border: none!important;
+        min-width: 200px;
+        min-height: 50px;
+        color: white;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 75px;
+    }
+}
+
+
+/*Logout */
+
+
+/* my event */
+
+.bg-event{
+    background: #f8f8f8;
+
+}
+.day-p{
+color:#038b9b;
+    font-size: 14px;
+    margin-bottom: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.adress-p{
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.h2-duck{
+    padding-top: 30px;
+    font-size: 18px;
+    color: #010107;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+.btn-event{
+    position: absolute;
+    top: 160px;
+    right: 300px;
+}
+
+.meet-people{
+    color: #fff;
+    background: #3ab1d0;
+    border: 2px solid #3ab1d0;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 300;
+    /* font-size: 16px; */
+    /* line-height: 18px; */
+    padding: 11px 20px;
+    min-width: 134px;
+    cursor: pointer;
+    -webkit-transition: background .3s, color .3s, border-color .3s;
+    -o-transition: background .3s, color .3s, border-color .3s;
+    transition: background .3s, color .3s, border-color .3s;
+}
+/* my event */
