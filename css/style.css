@@ -147,6 +147,11 @@ h2{
     margin-left: 10.255em;
 }
 
+.item-div-img{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media (max-width: 1025px){
     .fix-cont{
         padding-left: 100px!important;
