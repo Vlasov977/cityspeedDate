@@ -150,6 +150,33 @@ h2{
 .item-div-img{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.view-h1{
+    font-size: 27px;
+    text-align: left;
+}
+.data-p-view{
+    font-size: 24px;
+    color:#1cadd4;
+    text-align: left;
+}
+
+.text-matches{
+    text-align: left;
+}
+.h2-ema{
+    font-size: 20px;
+    text-align: left;
+}
+.p-undergirl{
+    font-size: 17px;
+    margin: 0!important;
+}
+.img-bottoms{
+    text-align: center;
+    width: 100%;
 }
 
 @media (max-width: 1025px){
