@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Roboto Regular', arial;
+
 }
 
 .label-email{
@@ -419,6 +419,27 @@ h2{
     .fix-cont{
         padding-left: 100px!important;
     }
+
+    .tt-left{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .img-bottoms-profile {
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 25px;
+         padding-left: 0;
+    }
+    .my-profile-h1 {
+        text-align: center;
+
+    }
+
+    .btn-edit{
+        text-align: center;
+    }
     .fix-cont-ass{
         padding-left: 50px!important;
     }
@@ -533,6 +554,9 @@ h2{
 @media (max-width:415px){
     .label-email {
         left: 32px;
+    }
+    .pad{
+        width: 300px;
     }
     .btn-meet {
         position: absolute;
