@@ -125,6 +125,17 @@ h2{
     font-size: 18px;
 }
 
+.btn-wrap{
+    border-radius: 0!important;
+}
+
+.btn-wrap1::after{
+    margin-left: 9.255em!important;
+}
+
+.btn-wrap2::after{
+    margin-left: 13.255em!important;
+}
 .submit-btn-assistance{
     padding-bottom: 55px;
 }
@@ -204,7 +215,9 @@ h2{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+.content-setting{
+    margin: 0 200px;
+}
 .img-bottoms-profile{
     text-align: left;
     width: 100%;
@@ -390,6 +403,15 @@ h2{
     margin: 0 0 5px;
 }
 
+.hr-q{
+    width: 60%;
+    position: relative;
+    top: -25px;
+}
+.hr-q2{
+    width: 100%;
+    border: 1px solid #c9c9c9;
+}
 .img-bottoms a img{
     width: 50px;
 }
@@ -414,10 +436,226 @@ h2{
 }
 
 
+.account-setting{
+    text-align: left;
+    padding-top: 60px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:#000000;
+}
+.lorem-p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#423941;
+}
+.acc-p{
+    text-align: left;
+    color:#1cadd4;
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.check-i{
+    background: #6bb240;
+    padding: 8px;
+
+    border-radius: 8px;
+}
+
+.w-close{
+    width: 40px;
+    /* padding: 10px; */
+    height: auto;
+}
+
+.heart-svg{
+    background: #f7b912;
+    padding: 8px;
+
+    border-radius: 8px;
+}
+
+.hurt{
+    -webkit-text-fill-color: white;
+}
+.general-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:#000000;
+}
+.btn-count{
+    width: 80px;
+    min-width: 70px!important;
+    border: 1px solid #bdbfc1;
+}
+.c-set{
+    margin: 0 135px;
+}
+.btn-count::after{
+    margin-left: 0.600em!important;
+}
+
+.div-check{
+    display: flex;
+    align-items: center;
+}
+
+.div-check label{
+    margin: 0 20px;
+}
+
+
+.pad-check{
+    padding-bottom: 30px!important;
+    padding-top: 50px;
+}
+.vv{
+    padding-bottom: 150px;
+}
+.ww{
+    padding-top: 30px;
+}
+
+.label-check {
+    cursor: pointer;
+    margin-left: 35px;
+    position: relative
+}
+
+/* Cкрываем стандартный чекбокс */
+.label-check__input {
+    display: none;
+}
+
+/* Новый чекбокс */
+.label-check__new-input {
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 1.6em;
+    height: 1.6em;
+    border: 1px solid #cfcfd1;
+    border-radius: 3px;
+}
+
+.lorem-p{
+    text-align: right;
+    padding-left: 40px;
+}
+
+/* Новый чекбокс при выборе */
+.label-check__input:checked + .label-check__new-input {
+    background: #2f4857;
+}
+
+
+.label-check__input:checked + .label-check__new-input {
+    background: url('../images/check-solid.svg') no-repeat center #3ab1d0 !important;
+    z-index: 99999;
+    animation: animation-checkbox 0.4s ease-in-out;
+
+}
+
+@keyframes animation-checkbox {
+    0% {
+        transform: scale(0.8);
+    }
+    70% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.btn-count{
+
+    color:black!important;
+}
+
+.check1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.top-nav-set{
+    display: flex;
+    padding-top: 70px;
+    align-items: center;
+}
+
+.div-check{
+    padding-bottom: 10px;
+}
+
+
+
+.btn-upgrades{
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #3ab1d0;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+
+.acc-stat{
+    font-size: 20px;
+    margin: 0 0 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.acc-standart{
+    margin: 0 90px 40px;
+    color:#1cadd4;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
 
 @media (max-width: 1025px){
     .fix-cont{
         padding-left: 100px!important;
+    }
+    .setting{
+        padding-left: 50px;
+    }
+
+
+    .view-h1{
+        text-align: center;
+    }
+
+    .data-p-view{
+        text-align: center;
+    }
+    .general-p{
+        text-align: center;
+        width: 100%;
+    }
+    .c-set{
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hr-q{
+        width: 100%;
+    }
+    .lorem-p{
+        font-size: 14px;
+    }
+
+    .hr-q2{
+        width: 97%;
     }
 
     .tt-left{
@@ -557,6 +795,61 @@ h2{
     }
     .pad{
         width: 300px;
+    }
+    .vv{
+        padding-bottom: 50px;
+    }
+    .top-nav-set{
+        display: inline-block;
+        padding-top: 70px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .btn-wrap{
+        width: 280px;
+
+    }
+
+    .btn-count{
+        width: 100%;
+        color:black!important;
+    }
+
+    .div-check{
+        display: block;
+    }
+    .c-set{
+        margin: 0 0;
+    }
+    .checkbox-set{
+        width: 100%;
+        text-align: center;
+    }
+    .ww{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .pad-check{
+        padding-bottom: 10px!important;
+    }
+
+    .general-p{
+        padding-bottom: 30px;
+    }
+
+    .setting{
+        padding-left: 0;
+    }
+
+    .account-setting, .acc-stat,.acc-p,.acc-standart{
+        text-align: center;
+    }
+
+
+    .vv{
+        flex-direction: column;
     }
     .btn-meet {
         position: absolute;
